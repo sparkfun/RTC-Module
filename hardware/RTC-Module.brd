@@ -125,11 +125,11 @@
 <wire x1="0" y1="19.05" x2="0" y2="0" width="0.2032" layer="20"/>
 <wire x1="-0.254" y1="9.525" x2="19.812" y2="9.525" width="0.254" layer="51"/>
 <wire x1="9.525" y1="19.431" x2="9.525" y2="-0.762" width="0.254" layer="51"/>
-<text x="13.208" y="2.794" size="1.016" layer="21" font="vector" ratio="15" rot="R90">5V</text>
-<text x="10.668" y="2.794" size="1.016" layer="21" font="vector" ratio="15" rot="R90">GND</text>
-<text x="8.128" y="2.794" size="1.016" layer="21" font="vector" ratio="15" rot="R90">SQW</text>
-<text x="5.588" y="2.794" size="1.016" layer="21" font="vector" ratio="15" rot="R90">SCL</text>
-<text x="3.048" y="2.794" size="1.016" layer="21" font="vector" ratio="15" rot="R90">SDA</text>
+<text x="13.335" y="2.794" size="1.27" layer="21" font="vector" ratio="15" rot="R90">5V</text>
+<text x="10.795" y="2.794" size="1.27" layer="21" font="vector" ratio="15" rot="R90">GND</text>
+<text x="8.255" y="2.794" size="1.27" layer="21" font="vector" ratio="15" rot="R90">SQW</text>
+<text x="5.715" y="2.794" size="1.27" layer="21" font="vector" ratio="15" rot="R90">SCL</text>
+<text x="3.175" y="2.794" size="1.27" layer="21" font="vector" ratio="15" rot="R90">SDA</text>
 <text x="5.588" y="17.145" size="1.27" layer="21" font="vector" ratio="15">RTC Module</text>
 <text x="16.764" y="7.112" size="0.2032" layer="27">.1 uF</text>
 <text x="53.34" y="-15.24" size="1.778" layer="51" font="vector" ratio="15">N. Seidle</text>
@@ -461,7 +461,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="SparkFun">
+<designrules name="SparkFun *">
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover
@@ -531,7 +531,7 @@ design rules under a new name.</description>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
 <param name="checkGrid" value="0"/>
-<param name="checkAngle" value="0"/>
+<param name="checkAngle" value="1"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="useDiameter" value="13"/>
@@ -626,7 +626,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="RES-07857" x="3.81" y="7.366" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="21.59" y="-15.24"/>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="2.286" y="4.826" rot="MR0"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="2.54" y="4.191" rot="MR0"/>
 <element name="SJ2" library="SparkFun-Passives" package="SJ_3_PASTE1&amp;2&amp;3" value="" x="16.51" y="6.35" rot="R90"/>
 </elements>
 <signals>
@@ -746,24 +746,25 @@ design rules under a new name.</description>
 <via x="14.732" y="7.62" extent="1-16" drill="0.508"/>
 <wire x1="14.732" y1="7.62" x2="14.732" y2="6.858" width="0.254" layer="16"/>
 <wire x1="14.732" y1="6.858" x2="14.224" y2="6.35" width="0.254" layer="16"/>
-<wire x1="14.224" y1="6.35" x2="9.017" y2="6.35" width="0.254" layer="16"/>
-<wire x1="9.017" y1="6.35" x2="8.509" y2="5.842" width="0.254" layer="16"/>
-<via x="8.509" y="5.842" extent="1-16" drill="0.508"/>
-<wire x1="8.47" y1="7.366" x2="8.47" y2="5.881" width="0.254" layer="1"/>
-<wire x1="8.47" y1="5.881" x2="8.509" y2="5.842" width="0.254" layer="1"/>
+<wire x1="14.224" y1="6.35" x2="9.398" y2="6.35" width="0.254" layer="16"/>
+<via x="8.89" y="5.842" extent="1-16" drill="0.508"/>
+<wire x1="8.47" y1="7.366" x2="8.47" y2="6.262" width="0.254" layer="1"/>
+<wire x1="8.47" y1="6.262" x2="8.89" y2="5.842" width="0.254" layer="1"/>
+<wire x1="9.398" y1="6.35" x2="8.89" y2="5.842" width="0.254" layer="16"/>
 </signal>
 <signal name="N$6">
 <contactref element="R2" pad="2"/>
 <contactref element="SJ2" pad="1"/>
 <wire x1="16.51" y1="5.5372" x2="14.0462" y2="5.5372" width="0.254" layer="1"/>
-<wire x1="13.335" y1="4.826" x2="5.715" y2="4.826" width="0.254" layer="16"/>
-<wire x1="5.715" y1="4.826" x2="4.699" y2="5.842" width="0.254" layer="16"/>
-<wire x1="4.66" y1="7.366" x2="4.66" y2="5.881" width="0.254" layer="1"/>
-<wire x1="4.66" y1="5.881" x2="4.699" y2="5.842" width="0.254" layer="1"/>
-<via x="4.699" y="5.842" extent="1-16" drill="0.508"/>
+<wire x1="13.335" y1="4.826" x2="4.572" y2="4.826" width="0.254" layer="16"/>
 <wire x1="14.0462" y1="5.5372" x2="13.97" y2="5.461" width="0.254" layer="1"/>
 <via x="13.97" y="5.461" extent="1-16" drill="0.508"/>
 <wire x1="13.97" y1="5.461" x2="13.335" y2="4.826" width="0.254" layer="16"/>
+<via x="3.81" y="6.096" extent="1-16" drill="0.508"/>
+<wire x1="3.81" y1="6.096" x2="3.81" y2="5.588" width="0.254" layer="16"/>
+<wire x1="3.81" y1="5.588" x2="4.572" y2="4.826" width="0.254" layer="16"/>
+<wire x1="4.66" y1="7.366" x2="4.66" y2="6.946" width="0.254" layer="1"/>
+<wire x1="4.66" y1="6.946" x2="3.81" y2="6.096" width="0.254" layer="1"/>
 </signal>
 </signals>
 <errors>
@@ -775,8 +776,8 @@ design rules under a new name.</description>
 <approved hash="4,1,fa9e186c699c0b6c"/>
 <approved hash="4,1,c49f2a6f179cc56c"/>
 <approved hash="4,1,45c852193df135c5"/>
-<approved hash="5,1,ecdde15d842a3b4a"/>
 <approved hash="5,1,ecdddcb5b8223aaa"/>
+<approved hash="5,1,ecdde15d842a3b4a"/>
 <approved hash="4,1,291ac188df64d4f6"/>
 <approved hash="4,16,049c7a6a1f98c568"/>
 <approved hash="4,16,469ca8636990076f"/>
