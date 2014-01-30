@@ -7031,7 +7031,7 @@ Standard 8.5x11 US Letter frame</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="SparkFun" deviceset="LOGO-SFE" device="SK"/>
+<part name="U$2" library="SparkFun" deviceset="LOGO-SFE" device="SK"/>
 <part name="U$6" library="SparkFun" deviceset="STAND-OFF" device=""/>
 <part name="U$7" library="SparkFun" deviceset="STAND-OFF" device=""/>
 <part name="U1" library="SparkFun-FreqCtrl" deviceset="DS1307" device="SO8-TIGHT" value="DS1307"/>
@@ -7056,12 +7056,14 @@ Standard 8.5x11 US Letter frame</description>
 <sheets>
 <sheet>
 <plain>
-<text x="238.76" y="7.62" size="1.778" layer="97">v1.4</text>
-<text x="172.72" y="10.16" size="1.778" layer="97">N. Seidle</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">v14</text>
+<text x="166.624" y="11.43" size="2.54" layer="94">N. Seidle</text>
 <text x="137.922" y="123.444" size="1.778" layer="97">Clear jumper to disable I2C pullups</text>
+<text x="149.86" y="7.62" size="2.54" layer="94">Revised by: N. Seidle &amp; Kade Jensen</text>
+<text x="104.14" y="83.82" size="2.54" layer="97">I2C Address = 0x68</text>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="241.3" y="17.78"/>
+<instance part="U$2" gate="G$1" x="241.3" y="17.78"/>
 <instance part="U$6" gate="G$1" x="238.76" y="40.64"/>
 <instance part="U$7" gate="G$1" x="243.84" y="40.64"/>
 <instance part="U1" gate="G$1" x="106.68" y="101.6"/>
