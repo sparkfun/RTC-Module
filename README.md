@@ -1,4 +1,4 @@
-DS1307 RTC Module
+SparkFun DS1307 RTc Module
 ==================
 
 [![Real Time Clock Module](https://cdn.sparkfun.com//assets/parts/9/4/5/4/12708-01.jpg)  
@@ -10,6 +10,12 @@ Repository Contents
 -------------------
 * **/Hardware** - All Eagle design files (.brd, .sch). These go way back in time (before github was around) so be sure to dig back to the original commit to see the early versions of the Eagle files.
 * **/Production** - Various test jigs and large panel layouts used for production.
+
+
+Documentation
+--------------
+* **[Library](https://github.com/sparkfun/SparkFun_DS1307_RTC_Arduino_Library)** - Arduino library for the SparkFun DS1307 RTC Module.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/real-time-clock-module-hookup-guide)** - Basic hookup guide for the SparkFun DS1307 RTC Module.
 
 Version History
 ---------------
