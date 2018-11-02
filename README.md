@@ -1,4 +1,4 @@
-SparkFun DS1307 RTc Module
+SparkFun DS1307 RTC Module
 ==================
 
 [![Real Time Clock Module](https://cdn.sparkfun.com//assets/parts/9/4/5/4/12708-01.jpg)  
