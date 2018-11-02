@@ -14,6 +14,7 @@ Repository Contents
 
 Documentation
 --------------
+* **[Installing an Arduino Library Guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library)** - Basic information on how to install an Arduino library.
 * **[Library](https://github.com/sparkfun/SparkFun_DS1307_RTC_Arduino_Library)** - Arduino library for the SparkFun DS1307 RTC Module.
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/real-time-clock-module-hookup-guide)** - Basic hookup guide for the SparkFun DS1307 RTC Module.
 
